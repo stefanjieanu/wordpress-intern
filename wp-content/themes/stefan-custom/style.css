@@ -1,0 +1,180 @@
+/*
+Theme Name: stefan-custom
+Theme URI: http://scanwp.net
+Author: Avi Klein
+Author URI: https://x2clickseo.com
+Description: A clean starter theme based on Bootstrap
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: ScanWP_starter
+*/
+
+
+/* Navigation Menu Css */
+.navbar-collapse {
+	color: #ffffff;
+	background-color: #8d2c8a;
+}
+
+.navbar-default {
+	background-color: #8d2c8a !important;
+	border: none !important;
+}
+
+.navbar {
+	margin-bottom: -10px !important;
+}
+
+.nav-container {
+	padding: 0 !important;
+	border: none;
+}
+
+nav ul#menu-mainmenu.menu {
+	color: white;
+	display: inline-block;
+
+	text-decoration: none;
+}
+
+nav ul#menu-mainmenu.menu > li {
+	display: inline-block;
+	padding: 1rem;
+}
+
+nav ul#menu-mainmenu.menu > li:hover {
+	background-color: white;
+	color: #8d2c8d;
+}
+
+
+nav ul#menu-mainmenu.menu > li:hover .sub-menu {
+	display: block;
+	background-color: white;
+	color: #8d2c8d;
+}
+
+nav ul#menu-mainmenu.menu > li > a {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: white;
+}
+
+nav ul#menu-mainmenu.menu > li > a:hover {
+	text-decoration: none;
+	color: #8d2c8a;
+}
+
+
+nav .sub-menu {
+	display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+	padding: 12px 16px;
+	margin-top: 1rem;
+	margin-right: -1rem;
+	z-index: 1;
+	
+	list-style: none;
+}
+
+nav .sub-menu > li > a {
+	color: #8d2c8a;
+	text-decoration: none;
+	margin-bottom: 0.5rem;
+}
+
+.top-menu {
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #8d2c8a;
+}
+
+.top-menu-item {
+	padding: 1rem;
+	text-transform: uppercase;
+
+	color: white;
+	font-weight: bold;
+}
+
+.nav-background {
+	padding: 1rem;
+
+	background: url('http://localhost/testsite/wp-content/uploads/2018/08/header-background.jpg');
+	background-size: cover;
+}
+
+.lentila {
+	width: 400px;
+    position: relative;
+    padding: 3rem;
+    margin: 50px 0 0 50px;
+    background-color: rgb(141, 44, 138, 0.8);
+    
+   -webkit-transform: skewX(12deg) skewY(1deg);
+    -moz-transform: skewX(12deg) skewY(1deg);
+    -ms-transform: skewX(12deg) skewY(1deg);
+    -o-transform: skewX(12deg) skewY(1deg);
+	transform: skewX(12deg) skewY(1deg);
+	margin: 3rem;
+
+    border-radius: 50px 100px 100px 70px / 100px 100px;
+}
+
+.lentila p {
+	-webkit-transform: skewX(-12deg) skewY(-1deg);
+    -moz-transform: skewX(-12deg) skewY(-1deg);
+    -ms-transform: skewX(-12deg) skewY(-1deg);
+    -o-transform: skewX(-12deg) skewY(-1deg);
+	transform: skewX(-12deg) skewY(-1deg);
+
+    color: white;
+    margin: auto;
+
+    font-size: 20px;
+}
+
+.lentila h1 {
+	-webkit-transform: skewX(-12deg) skewY(-1deg);
+    -moz-transform: skewX(-12deg) skewY(-1deg);
+    -ms-transform: skewX(-12deg) skewY(-1deg);
+    -o-transform: skewX(-12deg) skewY(-1deg);
+	transform: skewX(-12deg) skewY(-1deg);
+
+	color: white;
+	margin: auto;
+}
+
+/* Footer CSS */
+footer {
+	font-family: 'Myriad Pro';
+	padding: 2rem 0 2rem 0;
+}
+
+.info {
+	padding: 3rem 0 3rem 0;
+	background-color: #28389c;
+}
+
+footer h2 {
+	margin: 1rem;
+}
+
+footer .col-md-12 {
+	text-align: center;
+	color: white;
+}
+
+footer .footer-break {
+	border: 3px solid #28389c;
+}
+
+/* GLOBAL CSS */
+body {
+	overflow-x: hidden;
+}
+
