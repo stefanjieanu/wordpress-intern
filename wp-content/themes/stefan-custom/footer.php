@@ -26,8 +26,10 @@
         </div>
         <div class="row">
             <div class="col-md-12 footer-pictures">
-                <img src="http://localhost/testsite/wp-content/uploads/2018/08/Logo_1.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="http://localhost/testsite/wp-content/uploads/2018/08/Logo_2.png" alt="">
+                <div class="footer-pictures-div">
+                    <img src="http://localhost/testsite/wp-content/uploads/2018/08/Logo_1.png" alt="" style="margin: auto"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="http://localhost/testsite/wp-content/uploads/2018/08/Logo_2.png" alt="" style="margin: auto">
+                </div>
             </div>
         </div>
     </div>

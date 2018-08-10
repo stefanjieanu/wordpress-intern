@@ -33,6 +33,10 @@ Text Domain: ScanWP_starter
 	border: none;
 }
 
+.col-md-12 {
+	width: 100%;
+}
+
 nav ul#menu-mainmenu.menu {
 	color: white;
 	display: inline-block;
@@ -160,7 +164,6 @@ nav .sub-menu > li > a {
 /* Footer CSS */
 footer {
 	font-family: 'Myriad Pro';
-	padding: 2rem 0 2rem 0;
 }
 
 .info {
@@ -183,14 +186,13 @@ footer .footer-break {
 
 footer .footer-pictures {
 	display: inline-block;
-	text-align: center !important;
 	padding: 1rem;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-footer .footer-pictures img {
-	margin-bottom: 10px;
+.footer-pictures-div img {
+	margin-bottom: 20px !important;
 }
 
 .insegment{
