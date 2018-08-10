@@ -16,12 +16,45 @@
   $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
   $menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
 ?>
+
+
+<br><br><br><br>
+
+<div class="container-fluid nav-container">
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav" style="">
+	<?php wp_nav_menu( array('theme_location' => 'primary')); ?>
+</ul>
+
+</div>
+</div>
+</div>
+</nav>
+
+
+
+
+
+
+
+
+<!-- Ugly-er header with dropdown menus -->
 <!-- <div class="container-flex top-menu" style="text-align: center;">
 	<div class="row">
 		<div class="col-md-1">
 		</div>
 	    <div class="col-md-2 top-menu-item">
-	    	<?php wp_nav_menu(array(
+		<?php wp_nav_menu(array(
 				'menu' => 'Who we serve', 
 				'container_id' => 'cssmenu', 
 				'walker' => new CSS_Menu_Walker()
@@ -70,26 +103,3 @@
 		</div>
 	</div>
 </div> -->
-
-<br><br><br><br>
-
-<div class="container-fluid nav-container">
-<nav class="navbar navbar-default">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-</div>
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav" style="">
-	<?php wp_nav_menu( array('theme_location' => 'primary')); ?>
-</ul>
-
-</div>
-</div>
-</div>
-</nav>

@@ -13,10 +13,22 @@
         <br>
         <div class="row">
             <div class="col-md-12">
-                <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+                <p style="color: #777777; margin: auto;">Navigation menu here</p>
             </div>
         </div>
 
         <hr class="footer-break">
+
+        <div class="row">
+            <div class="col-md-12" style="line-height: 2;">
+                <p style="color: #777777;">&copy; 2018 The Carroll Center for the Blind | Privacy Policy | Website by <img class="insegment" src="http://localhost/testsite/wp-content/uploads/2018/08/logo_inSegment.png" alt=""></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 footer-pictures">
+                <img src="http://localhost/testsite/wp-content/uploads/2018/08/Logo_1.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="http://localhost/testsite/wp-content/uploads/2018/08/Logo_2.png" alt="">
+            </div>
+        </div>
     </div>
 </footer>
